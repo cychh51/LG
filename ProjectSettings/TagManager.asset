@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Boundary
+  - "\u908A\u754C"
   layers:
   - Default
   - TransparentFX

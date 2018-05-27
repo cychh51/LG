@@ -90,8 +90,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalRotation: {x: 0.000000019803648, y: -0.012501152, z: 0.000000034491826, w: 0.99992186}
+  m_LocalPosition: {x: -1.677116, y: -0.0000024399733, z: 5.1272006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400000}
@@ -318,8 +318,8 @@ MonoBehaviour:
   boundary:
     xMin: -6
     xMax: 6
-    zMin: -20
-    zMax: 20
+    zMin: -8
+    zMax: 16
   tilt: 10
   dodge: 5
   smoothing: 7.5
@@ -333,7 +333,7 @@ SphereCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.85
@@ -398,7 +398,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 0
+  randomSeed: 77158795
   InitialModule:
     serializedVersion: 3
     enabled: 1
